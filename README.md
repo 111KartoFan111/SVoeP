@@ -2,6 +2,7 @@
 При переноси  базы данных изменить пути пользователя хост и пароль
 
 Таблицы
+```
 CREATE TABLE applications (
     id SERIAL PRIMARY KEY, -- уникальный идентификатор новости
     name VARCHAR(255) NOT NULL, --Имя клиента
@@ -17,7 +18,7 @@ CREATE TABLE news (
     content TEXT NOT NULL,   -- содержание новости
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP -- дата и время создания новости (по умолчанию текущее время)
 );
-
+```
 
 -- парольь администратора 2222 при желании можно изменить
  @svoeadmin_bot -- телеграмм бот
